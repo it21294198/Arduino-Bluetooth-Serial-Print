@@ -1,8 +1,8 @@
 #include <SoftwareSerial.h>
 
+// RX ---> TX
+// TX ---> RX
 SoftwareSerial mySerial(9, 8); // RX, TX
-const byte DATA_MAX_SIZE = 32;
-char data[DATA_MAX_SIZE];
 
 void setup()
 {
